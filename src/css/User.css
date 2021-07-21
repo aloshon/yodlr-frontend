@@ -1,0 +1,26 @@
+.user-card-body.card-body {
+    color: "#AAAAAA";
+}
+
+.user-container.container {
+   position: relative;
+   margin: 10px;
+ 
+}
+
+.text-center.user-card.card {
+    background-color: #AAAAAA;
+}
+
+
+@media (min-width: 800px) {
+    .user-container.container {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+}
+
+.card-link:hover {
+    cursor: pointer;
+}
